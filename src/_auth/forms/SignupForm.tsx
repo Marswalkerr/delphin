@@ -5,7 +5,7 @@ import { useForm } from "react-hook-form"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { SignupValidation } from "@/lib/validations"
 import { z } from "zod"
-import Loader from "@/components/shared/loader"
+import Loader from "@/components/shared/Loader"
 import { Link } from "react-router-dom"
 
 const SignupForm = () => {
