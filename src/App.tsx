@@ -10,6 +10,7 @@ import CreatePost from "./_root/pages/CreatePost";
 import "./globals.css";
 import EditPost from "./_root/pages/EditPost";
 import PostDetails from "./_root/pages/PostDetails";
+import Explore from "./_root/pages/Explore";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
         {/* Private Routes */}
         <Route element={<RootLayout/>}>
           <Route index element={<Home />} />
+          <Route path="/explore" element={<Explore />} />
           <Route path="/create-post" element={<CreatePost />} />
           <Route path="/update-post/:id" element={<EditPost />} />
           <Route path="/posts/:id" element={<PostDetails />} />
