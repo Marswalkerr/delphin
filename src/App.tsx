@@ -8,6 +8,8 @@ import { Toaster } from "@/components/ui/toaster"
 import CreatePost from "./_root/pages/CreatePost";
 
 import "./globals.css";
+import EditPost from "./_root/pages/EditPost";
+import PostDetails from "./_root/pages/PostDetails";
 
 const App = () => {
   return (
@@ -23,6 +25,8 @@ const App = () => {
         <Route element={<RootLayout/>}>
           <Route index element={<Home />} />
           <Route path="/create-post" element={<CreatePost />} />
+          <Route path="/update-post/:id" element={<EditPost />} />
+          <Route path="/posts/:id" element={<PostDetails />} />
         </Route>
       </Routes>
 
