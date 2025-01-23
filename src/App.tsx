@@ -4,11 +4,10 @@ import SignupForm from "./_auth/forms/SignupForm";
 import { Home } from "./_root/pages";
 import AuthLayout from "./_auth/AuthLayout";
 import RootLayout from "./_root/RootLayout";
+import { Toaster } from "@/components/ui/toaster"
+import CreatePost from "./_root/pages/CreatePost";
 
 import "./globals.css";
-
-import { Toaster } from "@/components/ui/toaster"
-
 
 const App = () => {
   return (
@@ -23,6 +22,7 @@ const App = () => {
         {/* Private Routes */}
         <Route element={<RootLayout/>}>
           <Route index element={<Home />} />
+          <Route path="/create-post" element={<CreatePost />} />
         </Route>
       </Routes>
 
