@@ -1,8 +1,6 @@
 import { useParams, Link, useNavigate } from "react-router-dom";
 import { useUserContext } from "@/context/AuthContext";
 import { useGetCurrentUser, useGetUserPosts } from "@/lib/react-query/queriesAndMutations";
-import { multiFormatDateString } from "@/lib/utils";
-import { Models } from "appwrite";
 import Loader from "@/components/shared/Loader";
 import GridPostList from "@/components/shared/GridPostList";
 import { Button } from "@/components/ui/button";

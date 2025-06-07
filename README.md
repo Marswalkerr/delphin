@@ -1,10 +1,12 @@
 # Snapgraam
 
-### Introducing Snapgraam ✌️
+### Introducing Snapgraam
 
 Its a modern social like web app with a stunning UI with a native mobile feel, a special tech stack, an infinite scroll feature, and amazing performance using React JS, Appwrite, TypeScript, and more.
 
-## 🧐 Features
+![Snapgram Preview](https://github.com/Marswalkerr/snapgram/raw/main/public/assets/snapgram.png)
+
+## Features
 
 Snapgraam comes up with a whole bunch of amazing features to provide you the best experience, Here're some of our best features.
 
