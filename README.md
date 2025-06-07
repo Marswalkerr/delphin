@@ -7,7 +7,7 @@ Its a modern social like web app with a stunning UI with a native mobile feel, a
 ![Snapgram Preview](https://github.com/Marswalkerr/snapgram/raw/main/public/assets/snapgram.png)
 
 
-[Try Snapgram here: ](https://snagramdemo.netlify.app/)
+Try Snapgram here: [https://snagramdemo.netlify.app/](https://snagramdemo.netlify.app/)
 
 ## Features
 
